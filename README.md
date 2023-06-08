@@ -7,7 +7,7 @@ Official implementation of "Soften to Defend: Towards Adversarial Robustness via
 
  Adversarial training (AT) is currently one of the most effective ways to obtain the robustness of deep neural networks against adversarial attacks. However, most AT methods suffer from *robust overfitting*, *i.e.*, a significant generalization gap in adversarial robustness between the training and testing curves. In this paper, we first identify a connection between robust overfitting and noisy hard labels, upon which we propose an effective self-guided label smoothing technique for robust learning to weaken the memorization in AT on noisy labels and thus to mitigating robust overfitting. Specifically, it first utilizes the learned probability distributions to soften the over-confident one-hot labels, and then it guides the training process using the consensus among self-distilled models. Empirical results demonstrate that our method can simultaneously boost the standard accuracy and robust performance across multiple benchmark datasets, attack types, and architectures. In addition, we also provide a set of analyses to dive into our method and the importance of soft labels for robust generalization.
 
-![intro](C:/Users/18013/Desktop/论文/Nips2023/code/img/intro.png)
+![intro](https://github.com/devicerxx/SGLS/blob/master/img/intro.png)
 
 ## Dependencies
 - Python >= 3.8.0
